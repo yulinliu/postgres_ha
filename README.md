@@ -1,6 +1,7 @@
 # PostgreSQL 9.3 hot_standby Script
 
 Linux Virtual Host Setting
+
 1. Add Virtual Network Interface
   cp /etc/sysconfig/network-scripts/ifcfg-eth0 /etc/sysconfig/network-scripts/ifcfg-eth0:ha
   vi /etc/sysconfig/network-scripts/ifcfg-eth0:ha
@@ -26,5 +27,6 @@ Linux Virtual Host Setting
   ping 10.1.185.216
   
 Start Shell Script
+
   sh postgres_ha.sh &
   

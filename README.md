@@ -35,5 +35,5 @@ Linux Virtual Host Setting
   
 Start Shell Script
 
-  sh postgres_ha.sh &
+    sh postgres_ha.sh &
   
